@@ -1,0 +1,36 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilos del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f87a04;
+    border-bottom: 2px solid black;
+}
+
+/* Estilos de la sección "Mis Proyectos" */
+.mis-proyectos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Estilos del contenido principal */
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos adicionales */
+.elemento {
+    margin: 10px; /* Añade márgenes de 10px alrededor del elemento */
+    padding: 20px; /* Añade paddings de 20px al contenido del elemento */
+    color: #333; /* Cambia el color del texto a gris oscuro */
+    box-shadow: 2px 2px 5px rgba(248, 3, 3, 0.1); /* Agrega una sombra al elemento */
+}
